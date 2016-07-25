@@ -1,0 +1,208 @@
+#heading_addcontact{
+	padding-top:14px;
+}
+#add_contact{
+	float: right;
+    font-size: 10px;
+    color: #434f5d;
+    text-decoration: none;
+    background: url('assets/images/add_contact.svg') no-repeat scroll center top / auto 18px;
+    height: 35px;
+    display: inline-block;
+    padding-top: 22px;
+}
+#edit_reminder{
+	float: left;
+    font-size: 10px;
+    color: #434f5d;
+    text-decoration: none;
+    background: url('assets/images/edit_contact.svg') no-repeat scroll center top / auto 18px;
+    height: 35px;
+    display: inline-block;
+    padding-top: 22px;
+
+}
+
+#delete_reminder{
+	float: left;
+    font-size: 10px;
+    color: #434f5d;
+    text-decoration: none;
+    background: url('assets/images/menu-icon-delete.svg') no-repeat scroll center top / auto 18px;
+    height: 35px;
+    display: inline-block;
+    padding-top: 22px;
+
+}
+#all_contacts{
+	float: left;
+    height: auto;
+    padding-top: 2px;
+    width: auto;
+    font-size: 20px;
+
+}
+div.headerDiv {
+    background: none repeat scroll 0 0 #fff;
+    border: none;
+    height: 48px;
+    padding: 14px;
+    //box-shadow: 0 3px 3px #a8a8a8;
+    //position: relative;
+}
+#contactListViewTd {
+    border-right: 0px solid #ccc;
+}
+.contactListHeader {
+    border-bottom: 0px solid #ccc;
+}
+div#viewing_top_links div.headerLink, div.headerDiv div.addNewGroup {
+    width: 100%;
+}
+div.headerDiv div.editContact {
+    float: right;
+}
+div.headerDiv div.headerLink ul li.default {
+    display: inline-block;
+}
+div.headerDiv div.headerLink ul>li {
+    font-size: 12px;
+    font-weight: 400;
+    color: #434F5D;
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    padding: 20px 10px 0;
+    height: 100%;
+    cursor: pointer;
+}
+
+#alpha.alphaJumpListHorizontal {
+    display: none;
+    left: 0px;
+    position: absolute;
+    top: -800px;
+    z-index: 2;
+    width: 400px;
+    background-color: #424f5c;
+}
+td.alphaLink {
+    padding: 3px 5px 3px 0;
+    cursor: pointer;
+    text-align: center;
+}
+.contactInfo {
+    float: left;
+    width: 333px;
+    overflow: hidden;
+}
+.contactInfo {
+    float: left;
+    width: 333px;
+    overflow: hidden;
+}
+#contactsContainer {
+	//width:400px;
+    padding-left: 0;
+    background-color: #fff;
+    //width: 500px;
+    min-height: 600px;
+    position: relative;
+    z-index: 2;
+}
+
+#contactsContainer h1:first-child {
+    border-top: none;
+}
+#contactsContainer h1 {
+    font-size: 14px;
+    font-weight: 200;
+    color: #666;
+    padding: 3px 0 3px 15px;
+    border-top: 1px solid #d1d1d1;
+    background-color: #ececec;
+    margin:0;
+	//width:400px;
+}
+#contactsContainer .contact:hover, .contact.hover, .contactListView #contactsContainer .contact.active {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+.contact .contactInfo .photoIcon {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    background: rgba(0, 0, 0, 0) url("assets/images/profile-icon-gray.svg") no-repeat scroll center center / auto 25px;
+    background-size: 25px auto;
+    background-position: center center;
+}
+.contact .contactInfo .name {
+    display: inline-block;
+    padding: 10px;
+    width: 290px;
+    font-weight: normal;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #5686aa;
+}
+
+.contactInfoTable {
+    //width: 100%;
+    border-collapse: collapse;
+    
+}
+div.contactDetailColumn {
+   //float: right;
+    width: auto;
+	margin-top: 40px;
+    margin-left: 20px;
+}
+div.contactViewHeader {
+    //float: right;
+    margin-bottom: 5px;
+    padding: 2px 2px 25px;
+    width: auto;
+}
+div.contactViewInfo div.contactViewHeaderFields {
+    padding-bottom: 0 !important;
+}
+div.contactViewInfo div.contactViewHeaderFields {
+    color: #626262;
+    padding-bottom: 22px;
+}
+div.contactHeaderField {
+    border: 1px solid transparent;
+}
+div.contactViewHeaderFields div.fieldValue {
+    padding: 0;
+}
+div.contactViewHeaderFields div.fieldValue {
+    padding-left: 0;
+}
+div#profilePhoto img {
+    height: 60px;
+    width: 60px;
+    border-radius: 3px;
+}
+div.contactViewInfo div.contactViewHeaderFields div#cf_fullName>div.fieldValue>span.fieldValue {
+    word-wrap: break-word;
+    font-size: 24px;
+    letter-spacing: -0.05em;
+    font-weight: bold;
+    color: #343E48;
+}
+.contactInfoTable .leftLabel {
+    width: 110px;
+    white-space: nowrap;
+}
+.leftLabel {
+    border-bottom: 0;
+}
+.contactInfoCell {
+    border-top: 1px solid #ECECEC;
+    padding: 10px 0;
+    word-wrap: break-word;
+}
